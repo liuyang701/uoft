@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Task List</title>
+</head>
+<body>
+
+<header>Task List</header>
+<main>
+<section>
+    <form>
+        <div>
+            <label>Task</label><input type="text" required="required" 
+            name="task" class="large" placeholder="Web application development"/>
+        </div>
+        <div>
+            <label>Required by</label><input type="date" required="required" name="requiredBy"/>
+        </div>    
+        <div>
+            <label>Category</label> <select name="category">
+                <option value="Personal">Personal</option>
+                <option value="Work">Work</option>
+            </select>
+        </div>
+    <nav>
+        <a href="#">Save task</a>
+        <a href="#">Clear task</a>
+    </nav>
+    </form>
+</section>
+
+<section>
+    <table>
+        <colgroup>
+            <col width="50%">
+            <col width="25%">
+            <col width="25%">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Due</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+             <tr>
+                 <td>Return library books</td>
+                 <td><time datetime="2014-10-17">2014-10-17</time></td>
+                 <td>Personal</td>
+             </tr>
+        </tbody>
+    </table>
+</section>
+</main>
+<footer>Good Good Study, Day Day Up!</footer>
+</body>
+</html>

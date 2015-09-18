@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+body 
+{
+    margin-top: 0px;
+	font-family: Georgia,Verdana, Arial, Helvetica, sans-serif;
+	background-color: #dcdcdc;
+
+}
+
+.copyright
+{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.para_title
+{
+	font-weight:bold;
+	font-size:16px;
+	line-height: 20px;
+}
+
+.page_comment
+{
+	font-style:italic;
+	font-size: 12px; color: #696969;
+}
+
+.ta_item
+{
+    	line-height: 30px;
+}
+
+.edu_item
+{
+    	line-height: 25px;
+}
+
+.pub_item
+{
+	line-height: 25px;
+}
+
+.hitcounter
+{
+	font-weight:bold;
+}
+
+.book_paper_comment
+{
+	font-size: 11px;
+	font-style:italic;
+}
+
+.book_paper_name
+{
+	font-weight:bold;
+}
+
+.div_head
+{
+	
+}
+
+.div_body
+{
+	width: 830px; height:auto ; margin:0 auto; background-color: white; padding-right: 20px; padding-left: 20px; padding-bottom: 50px;
+}
+
+.div_shortbody
+{
+	width: 830px; height:483px ; margin:0 auto; background-color: white; padding-right: 20px; padding-left: 20px;
+}
+
+.div_left
+{
+	width: 400px; height: auto; margin:0 auto; float: left;
+}
+
+.div_right
+{
+	width: 400px; height: auto;margin:0 auto; float:right;
+}
+
+.div_award_pic
+{
+	float:left;
+}
+
+.thankdec
+{
+	font-size: 12px; text-indent: 10px; font-style: italic;
+}
+
+.awarditem
+{
+	width: auto; padding-bottom: 5px; padding-top: 5px;
+}
+
+#div_name
+{
+	 width:326px; height:38px; float: left; font-weight: bold; font-size: 28px;
+}
+
+#div_nav
+{
+	width: 492px; padding-top: 20px; height: 18px; text-align: right; font-size: 12px; float:right;
+}
+
+#div_nav a
+{
+	text-decoration:none;
+}
+
+#img_intro
+{
+	width: 385px; height: 317px;
+}
+
+#div_comment
+{
+	width: 384px; height:auto;
+}
+
+#contact
+{
+	 width: 396px; height: 68px; vertical-align: text-top;
+}
+
+#contact .td_head
+{
+	vertical-align: text-top; width: 49px; font-style: italic;
+}
+
+#contact .td_body
+{
+	width: 600px;
+}
+
+#div_book
+{
+	 height: 483px; width: 823px; padding-top: 20px;
+}
+
+#div_paper
+{
+	 height: 483px; width: 823px; padding-top: 20px;
+}
+
+#div_teaching
+{
+	 height: 483px; width: 823px; padding-top: 20px;
+}
+
+.image
+{
+	 width: 380px;  margin-top: 5px; text-decoration:none; border: 0;
+}
+
+a {color:#112a4d;}
+a:hover {color: #EC591F; text-decoration: underline;}
